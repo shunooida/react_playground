@@ -1,16 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-const App = () => {
-  return (
-    <>
-    <h1>Hello world</h1>
-    <p>Hello react</p>
-    </>
-  );
-}
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
